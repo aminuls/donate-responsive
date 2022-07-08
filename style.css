@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Finlandica', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+a, .submit{
+    padding: 15px 30px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #ebe4e4;
+    background-image: linear-gradient(45deg, #0000ff, #0dbdd4 );
+    border-radius: 40px;
+    top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:invalid{
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+.top-banner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec-one{
+    background: url('images/donation13.jpg') no-repeat;
+    background-size: cover;
+    object-fit: fill;
+}
+.banner-text{
+    height: 320px;
+    width: 826px;
+    text-align: center;
+}
+.banner-text h1{
+    font-weight: 700;
+    font-size: 65px;
+    color: whitesmoke;
+}
+.banner-text p{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.sec-two-text h1, .sec-three-text h1{
+    color: #121212;
+    margin-top: -70px;
+    font-size: 45px;
+}
+.sec-two-text p, .sec-three-text p{
+    color: #707070;
+    font-weight: 400;
+}
+.sec-two-ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: 123px;
+    width: 765px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px 0px 0px 25px;
+}
+.sec-two-ul ul{
+    text-decoration: none;
+    height: 123px;
+    width: 135px;
+    line-height: 123px;
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Finlandica', sans-serif;
+}
+.sec-two-ul :nth-child(2){
+    color: #23d8f0;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #23d8f03f;
+}
+.input{
+    margin-top: 50px;
+    height: 50px;
+    width: 765px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 40%);
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.sec-three{
+    margin-top: 40px;
+}
+.sec-three-box{
+    width: 1124px;
+    height: 352px;
+    margin-top: -400px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-three-small-outbox{
+    height: 352px;
+    width: 360px;
+    background-color: rgb(79, 157, 166, .2);
+    border-radius: 10px;
+}
+.sec-three-small-box{
+    margin: 22px;
+    height: 308px;
+    width: 316px;
+}
+.extra h1{
+    color: #121212;
+    margin-top: -10px;
+    font-size: 45px;
+}
+.extra-box{
+    height: 400px;
+    width: 896px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.extra-small-outbox{
+    width: 284px;
+    height: 200px;
+    background-color: transparent;
+}
+.extra-small-box{
+    margin: 22px;
+}
+.extra-small-box, .extra-small-box p{
+    height: 156px;
+    width: 240px;
+}
+.extra-in{
+    display: flex;
+}
+.extra-in img{
+    height: 50px;
+    width: 50px;
+    object-fit: fill;
+    margin: 10px 0px 0px -10px;
+}
+
+.sec-three-small-box span{
+    font-size: 80px;
+    margin-left: -5px;
+}
+.sec-three-small-box h1{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Finlandica', sans-serif;
+    margin: 20px 0px;
+}
+.small-bg-two{
+    background-color: rgb(255, 87, 87, .2);
+}
+.small-bg-three{
+    background-color: rgb(0, 0, 255, .2);
+}
+.sec-four-text h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+.sec-four-text p{
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+}
+.sec-four-email{
+    margin-top: -250px;
+}
+footer{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+    align-items: center;
+    flex-direction: column;
+}
+footer h1{
+    font-family: cursive;
+    color: #0dbdd4;
+
+}
+footer p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #D9DBE1;
+}

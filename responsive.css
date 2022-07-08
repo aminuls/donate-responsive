@@ -1,0 +1,89 @@
+@media screen and (min-width:360px) and (max-width: 575px){
+    br{
+        display: none;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+        margin: 0px 5px 0px 5px;
+    }
+    .banner-text p {
+        margin: 20px 10px 0px 10px;
+        font-size: 16px;
+    }
+    .sec-two-text h1, .sec-three-text h1 {
+        margin-top: 0;
+        font-size: 30px;
+    }
+    .top-banner {
+        margin: -160px 0px 0px 0px;
+    }
+    .banner-text {
+        height: 320px;
+        width: 360px;
+        text-align: center;
+    }
+    .sec-two-ul {
+        height: 100px;
+        width: 360px;
+        margin: 30px 0px 0px 0px;
+    }
+    .sec-two-ul ul:nth-last-child(2), .sec-two-ul ul:last-child{
+        display: none;
+    }
+    .sec-two-ul ul {
+        height: 100px;
+        width: 105px;
+        line-height: 105px;
+    }
+    .input {
+        margin: 30px 10px 0px 10px;
+        height: 50px;
+        width: 340px;
+        font-size: 16px;
+    }
+    .sec-two-text h1 {
+        margin-top: -15px;
+    }
+    .sec-three-small-outbox {
+        height: 320px;
+        width: 340px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .sec-three-box{
+        display: flex;
+        flex-wrap: wrap;
+        margin: -400px 10px 0px 10px;
+        width: 360px;
+    }
+    .extra-text h1, .sec-four-text h1{
+        font-size: 30px;
+    }
+    .extra{
+        margin-top: 485px;
+    }
+    .extra-box{
+        height: 550px;
+    }
+    .extra-small-outbox {
+    height: 145px;
+    width: 340px;
+    border-radius: 10px;
+    }
+    .sec-four{
+        margin-top: 285px;
+    }
+    .sec-four-email {
+        margin-top: -385px;
+    }
+    footer{
+        margin-top: -280px;
+        height: 100px;
+    }
+    footer p{
+        margin-top: 5px;
+    }
+    .sec-four-email .submit{
+        margin-top: -10px;
+    }
+}
